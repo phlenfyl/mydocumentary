@@ -83,12 +83,12 @@ WSGI_APPLICATION = 'core.wsgi.app'
 if Development:
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',  # Or other database engine
+            'ENGINE': 'django.db.backends.postgresql',
             'NAME': 'railway',
             'USER': 'postgres',
             'PASSWORD': 'tsMABeHPPctmaMNyhVZhRqOOTIFabKUI',
-            'HOST': 'postgres-3xs1.railway.internal',
-            'PORT': '5432',
+            'HOST': 'viaduct.proxy.rlwy.net',
+            'PORT': '25296',
         }
     }
 else:
