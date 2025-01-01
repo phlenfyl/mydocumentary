@@ -6,5 +6,4 @@ urlpatterns = [
 
 
     path('detail/<int:pk>/', documentation_detail_view, name='detail'),
-    path('get-ip/', get_ip),
 ]
