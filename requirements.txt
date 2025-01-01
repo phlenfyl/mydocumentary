@@ -6,7 +6,8 @@ django-compressor==4.5.1
 django-quill-editor==0.1.42
 django-summernote==0.8.20.0
 dnspython==2.7.0
-pymongo==4.10.1
+psycopg2==2.9.10
+pytz==2024.2
 rcssmin==1.1.2
 rjsmin==1.2.2
 sqlparse==0.5.3
