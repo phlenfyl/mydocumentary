@@ -84,11 +84,11 @@ if Development:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'railway',
-            'USER': 'postgres',
-            'PASSWORD': 'tsMABeHPPctmaMNyhVZhRqOOTIFabKUI',
-            'HOST': 'viaduct.proxy.rlwy.net',
-            'PORT': '25296',
+            'NAME': 'koyebdb',
+            'USER': 'koyeb-adm',
+            'PASSWORD': 'tEMnri6B1kLC',
+            'HOST': 'ep-lingering-hall-a2rr5ccz.eu-central-1.pg.koyeb.app',
+            'OPTIONS': {'sslmode': 'require'},
         }
     }
 else:
