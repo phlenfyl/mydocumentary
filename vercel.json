@@ -10,10 +10,10 @@
         {
             "src": "/(.*)",
             "dest": "core/wsgi.py"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "main/static/"
         }
-    ],
-    "static": {
-        "src": "main/static/",
-        "dest": "/static"
-    }
+    ]
 }
